@@ -1,0 +1,571 @@
+
+/* start globale rules*/
+*{
+ -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+body{
+    
+  
+    
+}
+
+
+/* end globale rules*/ 
+/*start frame work*/
+    
+.text-center{
+text-align: center;
+}   
+    
+.container{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.clearfix{
+clear: both;
+}
+.img-circle{
+ border-radius: 50%;   
+    
+    
+}     
+/*start frame work*/
+
+
+/* start header */
+.header{
+    background:url(../image/bg-image-28.jpg) no-repeat top center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size: cover;
+    min-height: 643px;
+    position: relative;
+}
+.header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+    padding-top:50px;
+   
+} 
+
+.header .overlay h1{
+ font-size: 60px;
+ margin-top: 100px;
+    
+}
+.header .overlay .plan{
+  border: 4px solid #fff;
+  font-size: 24px;
+  width: 48%;
+  float:left;
+  padding: 20px;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.header .overlay .order{
+  border: 4px solid #fff;
+  font-size: 24px;
+  padding: 20px;
+  margin:30px 1% 0 1%;
+    
+
+}
+
+/* end header */
+/* start feature */
+.feature{
+ padding-top: 30px;   
+    
+}
+.feature-wrapper{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 32px 16px;
+}
+.feat{
+width: 30%;
+color: #555;
+padding-left:1%;
+padding-right:1%;
+ 
+}
+
+.h1{
+font-size: 2em;
+text-align: center;
+color: #555;      
+}
+.feat p{
+line-height:1.4;
+}
+
+
+/* end feature */
+/* start about us */
+.about-us {
+background-color: #ececec;
+padding: 30px 0 ;
+
+    
+}
+
+.about-us .h1{
+ font-size: 50px;   
+ color: #848484;   
+}
+
+.data-info{
+ line-height:1.4;   
+  color: #848484;
+  font-size: 22px;
+}
+
+/* end about us */
+/* start works */
+
+.our-work{
+padding-top: 40px;
+}
+.our-work .h1{
+    
+font-size: 50px;   
+}
+
+.our-work .image{
+    
+ width: 33.3333%;
+    
+}
+
+.our-work img{
+    width: 100%;
+}
+
+.image-wrapper{
+ display: flex;
+ flex-wrap: wrap;
+    
+}
+/* end works */
+/* start pricing */
+
+.pricing-table{
+ background-color: #444;
+ color: #fff;
+ padding: 57px 0;
+ 
+     
+} 
+.pricing-table .h1{
+ margin: 0 0 40px;
+ font-size: 50px;
+ color: white;
+    
+}
+.classic-list{   
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.pricing-table .pricing-plan{
+float: left;
+border: 3px solid #fff;
+padding: 20px 0;
+position: relative;
+    
+}
+.pricing-table .pricing-plan h3{
+ margin: 0 0 10px;   
+ font-size: 26px;   
+    
+}
+.pricing-table .pricing-plan .pricing{
+ display: inline-block;
+ margin: 0 0 10px;
+ font-size: 22px;
+  color: #bfbfbf;  
+    
+}
+.pricing-table .pricing-plan ul{
+ line-height: 2;
+ font-size: 18px;
+    
+    
+}
+
+/* end pricing */
+/* start they say */
+
+.they-say{
+ padding: 50px 0;   
+}
+
+.they-say .h1{
+ font-size: 50px;
+margin: 0 0 20px;
+color:#555;
+}
+
+
+.they-say .person-say{
+ background-color: #EEE;   
+ padding: 20px;
+ margin: 0 0 20px;
+ border: 1px solid #ddd;
+ float: left;
+ border-radius:10px;
+}
+
+.they-say .person-say:first-of-type{
+   width: 50%;
+   margin-left: 25%
+}
+
+.they-say .person-say:not(:first-of-type){
+   width: 50%; 
+    
+}
+
+.person-say img{
+  width: 100px;
+  height:100%;
+    
+}
+
+.float-left{
+    float: left;
+}
+
+
+
+/* end they say */
+/* end informaion */
+
+.information {
+background-color: #ececec;
+padding: 30px 0 ;
+ font-size: 18px;
+    
+}
+
+.information .h1{
+ font-size: 50px;   
+ color: #848484;   
+}
+
+.information .info-list li{
+    
+ display: inline-block;
+ background-color: #ddd;
+ padding: 15px;
+font-size: 22px;
+cursor: pointer;
+    
+}
+.information .info-contact{
+    
+margin-bottom: 30px;    
+    
+}
+.information .info-contact > div{
+padding: 20px;
+background-color: #fff;
+    
+    
+}
+
+.information .info-contact > div:not(:first-of-type){
+    
+ display: none;
+ line-height: 2;
+    
+}
+
+.information .info-list li.selected{
+background-color: #fff;    
+color: #22a9bd;
+}
+
+/* end they informaion */
+/*start last Section*/
+
+.footer-container {
+    background-color: darkgray;
+    padding: 32px 0px;
+    margin-top: 20px;;
+}
+
+.footer-info {
+    font-size: 0.9em;
+    color: black;
+    text-align: center;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+.links ul li:first-child {
+    padding-left: 0px;
+}
+
+.links ul li {
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-bottom: 12px;
+    border-right: 1px solid black;
+    height: 18px;
+    line-height: 18px;
+    text-decoration: none;
+}
+.links a{
+    
+  text-decoration: none;  
+}
+.links span, .links a {
+    color: black;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.links ul li:last-child {
+    padding-right: 0px;
+    border-right: 0px;
+}
+
+@media (max-width: 568px){
+.links ul li {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    border-right: 0px;
+}
+}
+/*eend last Section*/
+
+
+
+
+
+@media (max-width: 668px){
+    
+ .feat{
+   width: 100%;
+   background-color: beige;
+   margin-bottom: 10px;
+   text-align: center;
+}      
+    
+}
+
+@media (max-width: 767px){
+.overlay{
+  padding-top: 30px;
+}
+
+.header .overlay h1{
+  font-size: 40px;      
+}       
+.header .overlay .plan{
+ float: none;
+ margin: 0 auto 20px;
+ font-size: 16px;
+} 
+.header .overlay .order{
+
+ font-size: 16px;
+}    
+.feat{
+   width: 100%;
+   background-color: beige;
+   margin-bottom: 10px;
+   text-align: center;
+   
+} 
+    
+.data-info{
+        
+ text-align: center;
+ font-size: 18px;
+}  
+.our-work .image{
+    
+ width: 0%;
+    
+}
+    
+.pricing-table .pricing-plan{
+ width: 100%;
+ margin-bottom:20px; 
+        
+        
+}
+    
+.they-say .person-say:first-of-type {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+   
+.they-say .person-say:not(:first-of-type){
+   width: 100%; 
+    
+}    
+   
+    
+.they-say .person-say h3{
+  margin: 0 0 10px;
+  padding:30px 0 0 10px;
+        
+}   
+.information .info-list li{
+display: block;
+    }    
+    
+}
+
+
+
+@media (min-width: 768px){
+ .container{
+  width: 750px;
+}
+.pricing-table .pricing-plan{
+  width:33.33333%;      
+        
+    }
+    
+.they-say .person-say:first-of-type {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+   
+}
+   
+.they-say .person-say:not(:first-of-type){
+   width: 100%; 
+    
+}    
+.they-say .person-say:last-of-type{
+        
+        
+}    
+  
+}
+
+
+@media (min-width: 992px){
+.container{
+ width: 970px;
+}   
+
+.our-work .image{
+    
+ width: 50%;
+    
+}    
+.pricing-table .pricing-plan:not(.last ){
+  margin-right: 1%;       
+}  
+.pricing-table .pricing-plan{
+  width: 32.66666%;      
+}    
+.pricing-table .pricing-plan.plus{
+        
+left:33.66666%;
+
+        
+}
+.pricing-table .pricing-plan.premium{
+        
+ right:33.66666%;       
+        
+}
+ 
+.they-say .person-say:first-of-type{
+   width: 80%;
+   margin-left: 10%
+}    
+ 
+.they-say .person-say h3{
+  margin: 0 0 10px;
+  padding:30px 0 0 40px;;
+        
+}   
+.they-say .person-say p{
+text-align: justify; 
+padding-right: 20px;;  
+}   
+.they-say .person-say:first-of-type {
+    width: 80%;
+    margin-bottom:20px;
+    
+}
+   
+.they-say .person-say:not(:first-of-type){
+   width: 49%; 
+   margin: 2px; 
+}   
+}
+  
+       
+
+@media (min-width: 1200px){
+.container{
+width: 1170px;
+} 
+.our-work .image{
+    
+ width: 33.3333%;
+    
+}    
+ 
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
